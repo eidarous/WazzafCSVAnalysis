@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Main</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        .btn-group button {
+          background-color: #2196F3; /* Green background */
+          border: 1px solid background; /* Green border */
+          color: white; /* White text */
+          padding: 12px 30px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          width: 75%; /* Set a width if needed */
+          display: block; /* Make the buttons appear below each other */
+          margin: auto;
+          margin-bottom: 5px;
+          align-self: auto ; 
+          border-radius: 12px;
+          font-size: 16px;
+          font-family:cursive  ;
+        }
+
+        .btn-group button:not(:last-child) {
+          border-bottom: none; /* Prevent double borders */
+        }
+
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: #0b7dda;
+        }
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 0px solid #73AD21;
+            padding: 10px;
+          
+         }
+        #GFG{
+            text-decoration: none;
+        }
+        h1 {
+            color: whitesmoke;
+            background: black;
+            font-family: verdana;
+            font-size: 200%;
+            padding: 12px 30px;
+            margin-top: 0px;
+          }
+        </style>
+    </head>
+    <body style = "text-align:center; margin:0px;">
+    <h1>Wazzaf CSV File Analysis</h1>
+
+    <div class="btn-group center">
+      
+      <a id = "GFG" href="read-csv"><button> Read CSV and Display Some From It </button></a>
+      <a id = "GFG" href="summary"><button> Display Structure and Summary for the Data</button></a>
+      <a id = "GFG" href="clean"><button> Clean the Data</button></a>
+      <a id = "GFG" href="jops-for-company"><button> What are the most demanding companies for jobs?</button></a>
+      <a id = "GFG" href="pie"><button> Display Most demanding companies for jobs in Pie Chart</button></a>
+      <a id = "GFG" href="most-popular-jop"><button> What are the most popular job titles? </button></a>
+      <a id = "GFG" href="titlebar"><button> Display The Most popular job titles in Bar Chart</button></a>
+      <a id = "GFG" href="most-popular-area"><button> What are most popular areas?</button></a>
+      <a id = "GFG" href="areabar"><button> Display The Most popular areas in Bar Chart</button></a>
+      <a id = "GFG" href="most-important-skills"><button> Find out the most important skills required?</button></a>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HOME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* Three image containers (use 25% for four, and 50% for two, etc) */
+            .column {
+              float: left;
+              width: 33%;
+              padding: 2px;
+            }
+
+            /* Clear floats after image containers */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            .center {
+            margin: auto;
+            width: 50%;
+            border: 0px solid #73AD21;
+            padding: auto;
+            }
+          .btn-group button {
+          background-color: #2196F3; /* Green background */
+          border: 1px solid background; /* Green border */
+          color: white; /* White text */
+          padding: 12px 30px; /* Some padding */
+          cursor: pointer; /* Pointer/hand icon */
+          width: 75%; /* Set a width if needed */
+          display: block; /* Make the buttons appear below each other */
+          margin: auto;
+          margin-bottom: 5px;
+          align-self: auto ; 
+          border-radius: 12px;
+          font-size: 16px;
+          font-family:cursive  ;
+        
+         }
+         .btn-group button:hover {
+          background-color: #0b7dda;
+        }
+        
+        #GFG{
+            text-decoration: none;
+        }
+        </style>
+        
+    </head>
+    <body style = "text-align:center; margin:0px; font-family:cursive; ">
+        <div style = "color: gray;">
+            <h1 style = " margin:0px;">Final Project For Java Course</h1>
+            <h2 style = " margin:1px;">ITI Ai-Pro Intake 1</h2>
+            
+        </div>
+        <div class="row">
+            <h3 style = " margin:10px;">Done By:</h3>
+            <div class="column">
+              <img src="/eidarous.jpeg"  style="width:300px;height:400px; border-radius: 20%">
+              <h2>Mahmoud Eidarous</h2>
+            </div>
+            <div class="column">
+              <img src="/taher.jpg" style="width:300px;height:400px; border-radius: 20%">
+              <h2>Taher Abd EL-Hamed</h2>
+            </div>
+            <div class="column">
+              <img src="/hisham.jpg" style="width:300px;height:400px; border-radius: 20%">
+              <h2>Hesham Tarek</h2>
+            </div> 
+         </div>
+        <div class="btn-group center">
+                <a id = "GFG" href="/main"><button> Start The Project </button></a>
+            </div>
+    </body>
+</html>
