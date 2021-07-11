@@ -2,6 +2,9 @@
 
 This is the final project of the Java course in the ITI-AI pro scholarship.
 
+Demo Video for the output :  
+https://youtu.be/4rY8iT-yhJA
+
 The data set used in this project was provided by Wuzzuf jobs in Egypt data set at Kaggle :  
 https://www.kaggle.com/omarhanyy/wuzzuf-jobs
 
